@@ -31,13 +31,13 @@ export default function Header() {
       />
 
       {/* Menu button */}
-      <button className="absolute z-20 h-44 w-36 bg-lime-800 hover:bg-lime-700 top-10 right-10 rounded-[50px] font-bold text-2xl">
+      <button className="absolute z-20 h-44 w-52 bg-lime-800 hover:bg-lime-700 top-10 right-[-2rem] rounded-[50px] font-bold text-2xl">
         MENU
       </button>
 
       {/* Visitor button */}
       <button
-        className="absolute z-20 h-22 w-36 bg-lime-800 hover:bg-lime-700 bottom-10 right-10 rounded-[50px] font-bold text-lg"
+        className="absolute z-20 h-20 w-52 bg-lime-800 hover:bg-lime-700 bottom-10 right-[-2rem] rounded-[50px] font-bold text-lg"
         onClick={() => setVisitors(visitors + 1)}
       >
         VISITED: {visitors}
