@@ -1,4 +1,4 @@
-import Products from "./products";
+import ProductList from "./components/ProductList";
 import Image from "next/image";
 import pastaImage from "./assets/pasta.jpg";
 import delucasLogoImage from "./assets/DeLucasLogo.png";
@@ -36,7 +36,7 @@ export default function Home() {
       {/* Menu Area */}
       <h1 className="text-center m-10 size">MENU</h1>
       <div className="flex justify-center gap-4">
-        <Products />
+        <ProductList />
       </div>
     </>
   );
