@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        fancy: ["Lobster", "Georgia"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
